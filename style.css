@@ -1,0 +1,165 @@
+.body{
+    Background-color :#fff;
+    color:#4d4d4d;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+/*header*/
+.heaaa{
+    background-color :#ececec;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+/*nav menu*/
+.menu{
+  color : #4d4d4d;
+  font-size: 18px;
+  font-weight:400 ;
+}
+/*banner*/
+.banner{
+    min-height: 444px;
+}
+
+/*for image*/
+.img-jmbo{
+    background-image:url(images/Banner.JPG) ;
+    background-size: 100% 100%;
+    min-height:444px;
+}
+
+/*for custom font set on banner*/
+.banner-font{
+     font-size : 48px;
+    color: #fff;
+    font-weight: 600; /*font weight=semibold*/
+
+}
+
+
+
+/*About us*/
+ .sec-1{
+    font-size: 36px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-underline-offset: 10px;
+     color: #d52037;
+    font-weight : 600;
+ }  
+  /*About us content*/
+ .sec-p{
+     color:black;
+     font-weight: 470;
+ }
+ /*For form background*/
+.form1{
+    background-color: #e4e4e4 !important;
+    border-radius: 8px !important;
+
+}
+/*For border in iframe*/
+.bor{
+    border-radius: 8px;
+    border-style: solid;
+    border-color: red;
+}
+/*For youtube iframe border*/
+.bor1{
+    border-radius: 8px;   
+}
+
+.sub{
+    font-size: 18px !important; 
+    font-weight: 400!important;
+    background-color : #db1e36;
+    color:white;
+}
+/*For footer*/
+.foot{
+    font-size: 16px;
+    background-color: #cecece;
+    
+}
+/*For section headings*/
+.pop{
+    background-color: #fff;
+ color: #db1e36;
+ text-decoration: underline;
+ text-decoration-color: #db1e36;
+}
+ /*For button on learn more*/
+ .MyButton {
+  border: none;
+  outline: none;
+  background: none;
+  }
+/*For menu item on banner*/
+@media only screen and (min-width: 992px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+      padding: 0 0.5em;
+    }
+    .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+      border-right: 1px solid #4d4d4d;
+    }
+  }
+ 
+    /*For content on banner*/
+    @media only screen and (min-width: 480px) {
+    .centered {
+        position: absolute;
+        top: 40%;
+        left: 45%;
+
+        margin: auto;
+       
+        
+        transform: translate(-40%, -50%);
+        
+      }
+    }
+    /*For content on banner*/
+    @media only screen and (max-width: 480px) {
+        .centered {
+            position: absolute;
+            top: 30%;
+            left: 45%;
+    
+            margin: auto;
+           
+            
+            transform: translate(-40%, -50%);
+            
+          }
+        }
+    /*For button on banner*/
+      .btn1{
+       position: absolute;
+         top: 70%;
+        /* left: 50%; */
+        margin: auto;
+        transform: translate(-60%, -50%);
+        margin-top: auto;
+        padding: 13px 20px 13px 20px;
+        font-size: 24px !important;
+        color: #d52037;
+        font-weight : 600 !important;
+      }
+      /*For container*/
+
+      .container-1 {
+        position: relative;
+        text-align: center;
+
+         }
+      /*bootstrap modal css*/
+      .moda{
+        background-color : #db1e36;
+        font-size: 24px;
+        color : #fff;
+        font-weight: 600;
+      }
+     .moda-con{
+        background-color: #fff;
+        color:#4d4d4d;
+     }
